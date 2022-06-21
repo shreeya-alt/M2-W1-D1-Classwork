@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://kit.fontawesome.com/ad9fa19830.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <h3 class="logo">Shreeya Maskey</h3>
+        <ul style="z-index: 1;" class="nav-items">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <div class="experience">
+                <li onclick="experience();" class="exp-contain"><a href="#">Experience</a> &nbsp; <i
+                        class="fa fa-caret-down"></i></li>
+                <!-- Dropdown Menu -->
+                <div class="abt-drop-content">
+                    <ul>
+                        <li class="web-dev"><i class="fa fa-user"></i>Web Developer</li>
+                        <li><a href="#"><i class="fa fa-users"></i>UI/UX Designer</a></li>
+                        <li><a href="#"><i class="fa fa-globe"></i>Front-End Web Developer</a></li>
+                        <li class="web-master"><a href="#"><i class="fa fa-file"></i>Web Master</a></li>
+                    </ul>
+                </div>
+                <!-- x - Dropdown Menu - x -->
+            </div>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li class="active"><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                        <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                        <path
+                            d="M256 32V51.2C329 66.03 384 130.6 384 208V226.8C384 273.9 401.3 319.2 432.5 354.4L439.9 362.7C448.3 372.2 450.4 385.6 445.2 397.1C440 408.6 428.6 416 416 416H32C19.4 416 7.971 408.6 2.809 397.1C-2.353 385.6-.2883 372.2 8.084 362.7L15.5 354.4C46.74 319.2 64 273.9 64 226.8V208C64 130.6 118.1 66.03 192 51.2V32C192 14.33 206.3 0 224 0C241.7 0 256 14.33 256 32H256zM224 512C207 512 190.7 505.3 178.7 493.3C166.7 481.3 160 464.1 160 448H288C288 464.1 281.3 481.3 269.3 493.3C257.3 505.3 240.1 512 224 512z" />
+                    </svg></a></li>
+        </ul>
+    </nav>
+
+    <!-- x - Navigation Bar - x -->
+
+    <!-- Portfolio -->
+    <div class="index-abt-sec">
+        <h1 class="about-me-txt">Pricing Plans</h1>
+
+        <ul class="port-nav">
+            <li class="port-active" onclick="everything()">Everything</li>
+            <li onclick="art()">Art</li>
+            <li onclick="creative()">Creative</li>
+            <li onclick="design()">Design</li>
+        </ul>
+
+        <div class="for-everything  port-hide">
+            <div class="for-everything-1">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="for-everything-2">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+
+        <div class="for-arts port-hide">
+            <div class="for-arts-1">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="for-arts-2">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+
+        <div class="for-creative port-hide">
+            <div class="for-creative-1">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="for-creative-2">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+
+        <div class="for-design port-hide">
+            <div class="for-design-1">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="for-design-2">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Script -->
+    <script src="script.js"></script>
+    <!-- x - Script x - -->
+</body>
+
+</html>
